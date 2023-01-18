@@ -1,4 +1,4 @@
-#Asincronismo Js
+# Asincronismo Js
 
 Para este proyecto vamos a usar fake API de node.js y visual studio code.
 >consejo: instalen en vsc la extencion code runner que nos permitirá correr código js en nuestra terminal de comando.
@@ -9,7 +9,7 @@ Con la configuración terminada vamos a crear una nueva carpeta llamada **src** 
 Luego agregaremos un **.gitignore** para evitar subir archivos innecesarios al GitHub.
 Podemos empezar con el primer tema
 
-##Callbacks
+## Callbacks
 
 Un Callback es una función que se pasa como argumento de otra función y que será invocada. Esta es una de las pocas cosas que son más fácil verlos que explicarlos, por lo que para visualizar creceremos una carpeta llamada callback y dentro creemos un archivo index.js
 
@@ -27,7 +27,7 @@ Dentro retornaremos callback que es la función prometida y dentro de la funció
 En su invocación vemos que pasamos dos números y la función suma, pero si vemos detenidamente no abrimos los paréntesis, esto se debe a que, si lo ponemos, estaríamos invocando la función suma y nosotros solo lo queremos pasar como argumento.
 Ahora si corremos esto en nuestra terminal veremos que obtenemos el mismo resultado si lo enviáramos desde.
 
-###SetTimeout
+### SetTimeout
 Este método nos va a permitir ejecutar un bloque de código despues de un tiempo determinado, por ejemplo
 
 	setTimeout(() => {
@@ -109,9 +109,9 @@ La razón por la que llamamos a esto código espagueti o callback hell, es porqu
 La primera para conseguir datos tipo Json sobre un producto en particular. La segunda, con el mismo dato, extraemos el Id para conseguir el título del producto conseguido y por último entramos en la parte de categoría del primer producto que llamamos, y atreves del id conseguimos el nombre.
 Ahora corremos el código en nuestra terminal de vsc y este sería el resultado
 
-![resultado](../img/callback.png "resultado")
+![resultado](img/callback.png "resultado")
 
-#Promesa
+# Promesa
 
 Las  promesas representan valores que pueden estar disponibles en cualquier momento. Esto quiere decir que los valores que esperamos conseguir pueden estar en el momento que ejecutamos el código, en un momento futuro o no pueden nunca devolverse.
 Una promesa tiene tres casos particulares:
@@ -345,7 +345,7 @@ Ahora que tenemos la lógica para llamar a nuestra Api necesitamos otra que teng
 Seguramente después de ver este código te estas preguntando ¿pero donde esta mis “THEM” para hacer la consulta de nuestra promesa? ¿Dónde está mi espagueti?
 Bueno, está es la magia de del async y el await. 
 
-#Generadores
+# Generadores
 Entremos ahora en el tema de los generadores. Un generador en JavaScript consta de una función generadora que muestra un objeto iterable Generator. La palabra reservada yield se usa para pausar y reanudar una función o solicitud que hagamos.
 Veamos un generador en acción.
 
