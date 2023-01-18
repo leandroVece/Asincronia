@@ -1,0 +1,19 @@
+/*const promise = new Promise(function (resolve, reject) {
+    resolve("hola desarrollador!")
+});
+
+const cocas = 15;
+
+const countCocas = new Promise(function(resolve,reject){
+    if (cocas>20) {
+        resolve(`yes sir, we have ${cocas} cocas wair a moment plis`)
+    }else{
+        reject("sorry, i don't have enough cocas")
+    }
+})
+
+countCocas.then((result)=> {
+    console.log(result);
+}).catch((error)=>{
+    console.log(error)
+}).finally(()=> console.log("see you"))*/
